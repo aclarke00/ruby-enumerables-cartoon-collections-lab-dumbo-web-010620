@@ -1,13 +1,17 @@
+<<<<<<< HEAD
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 call_screams = ["bo", "bam", "boom", "bazam", "powzer"]
 
+=======
+>>>>>>> 680513a50a7ada46e6e0d8811f4c0300da5526ab
 def roll_call_dwarves(array)
   i = 0 
   while i < array.length 
     puts "#{i + 1}. #{array[i]}"
     i += 1 
   end 
+<<<<<<< HEAD
 end
 
 roll_call_dwarves(dwarves)
@@ -22,6 +26,14 @@ def summon_captain_planet(array)
     i += 1 
   end 
   nu_array
+=======
+  roll_call_dwarves(array)
+end
+
+
+def summon_captain_planet# code an argument here
+  # Your code here
+>>>>>>> 680513a50a7ada46e6e0d8811f4c0300da5526ab
 end
 
 summon_captain_planet(planeteer_calls)
